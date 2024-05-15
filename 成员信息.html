@@ -3,59 +3,78 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>小组成员</title>
+<title>BSST-团队成员</title>
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-image: url('img/背景.jpg'); /* 添加背景图 */
+        background-size: cover;
+        background-position: center;
+    }
+    .white-box {
+        background-color: white; /* 白色背景 */
+        margin: 3em auto; /* 上下边距为3em，左右居中 */
+        padding: 1em; /* 内边距 */
+        max-width: 45%; /* 缩小白框的最大宽度至40% */
+        border-radius: 10px; /* 边角圆滑 */
+        box-shadow: 0 0 10px rgba(0,0,0,0.5); /* 添加阴影效果 */
+        text-align: center; /* 使容器内的文本居中 */
+    }
+    .title {
+        font-size: 30px; /* 修改标题字号为30px */
+        font-weight: bold;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+    h2 {
+        font-size: 28px; /* 设置"h2"的字体大小为24px */
+    }
+    p {
+        font-size: 18px; /* 设置"p"的字体大小为14px */
+    }
+    .content, .detail { /* 对内容和细节应用同样的居中样式 */
+        text-align: center;
+    }
+    .member-photo {
+        max-width: 45%; /* 设置图片最大宽度为40% */
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    hr {
+        border: none;
+        height: 2px;
+        background-color: black; /* 黑色线条 */
+        margin: 1em 0;
+    }
+</style>
 </head>
 <body>
-<h1>小组成员</h1>
-<ul>
-    <li><a href="#member1">成员1</a>
-        <ul>
-            <li><a href="/Users/maoyan/Desktop/ZWU-2024-Yan-main/自我介绍.html">成员1信息</a></li>
-        </ul>
-    </li>
-    <li><a href="#member2">成员2</a>
-        <ul>
-            <li><a href="#member2_info">成员2信息</a></li>
-        </ul>
-    </li>
-    <li><a href="#member2">成员3</a>
-        <ul>
-            <li><a href="#member2_info">成员3信息</a></li>
-        </ul>
-    </li>
-    <li><a href="#member2">成员4</a>
-        <ul>
-            <li><a href="#member2_info">成员4信息</a></li>
-        </ul>
-    </li>
-    <li><a href="#member2">成员5</a>
-        <ul>
-            <li><a href="#member2_info">成员5信息</a></li>
-        </ul>
-    </li>
-    <li><a href="#member2">成员6</a>
-        <ul>
-            <li><a href="#member2_info">成员6信息</a></li>
-        </ul>
-    </li>
-</ul>
 
-<h2 id="member1">成员1</h2>
-<p id="member1_info">这里是成员1的详细信息。</p>
+    <div class="white-box">
+        <div class="title">MEMBER 1</div>
 
-<h2 id="member2">成员2</h2>
-<p id="member2_info">这里是成员2的详细信息。</p>
+        <div class="content">
+            <h2>个人介绍</h2>
+            <div class="about-me">
+                < img class="member-photo" src="img/照片.JPG" alt="团队成员照片">
+                <p class="detail"><strong>姓名：</strong>毛妍 MaoYan</p >
+                <p class="detail"><strong>年龄：</strong>19</p >
+                <p class="detail"><strong>性别：</strong>女</p >
+                <p class="detail"><strong>学校：</strong>浙江万里学院</p >
+                <p class="detail"><strong>MBTI：</strong>ESTP</p >
+                <p class="detail"><strong>自我介绍：</strong>我来自艺术与科技（2+2）22A1，喜欢绘画摄影，对剪辑也很有兴趣。我正在学习GitHub，我认为非常有趣，但有点困难。
+                    我是毛烧烧的妈咪！
+                    ENDING……
+                    第五人格！启动！
+                    </p >
+            </div>
+              <hr> <!-- 在此处加入一条黑线 -->
+            <h2>联系方式</h2>
+            <p class="detail"><strong>邮箱：</strong>209183438@qq.com</p >
+            <p class="detail"><strong>电话：</strong>+86 18067296846</p >
+        </div>
+    </div>
 
-<h2 id="member2">成员3</h2>
-<p id="member2_info">这里是成员3的详细信息。</p>
-
-<h2 id="member2">成员4</h2>
-<p id="member2_info">这里是成员4的详细信息。</p>
-
-<h2 id="member2">成员5</h2>
-<p id="member2_info">这里是成员5的详细信息。</p>
-
-<h2 id="member2">成员6</h2>
-<p id="member2_info">这里是成员6的详细信息。</p>
 </body>
 </html>
